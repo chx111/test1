@@ -15,11 +15,10 @@ public class ServerTest {
 	    public static int  i = 0;
 	    public static void main(String[] args) throws Exception {
 	        socket = new ServerSocket(port);
-	        System.out.println("·şÎñÆ÷¿ªÆô£¬µÈ´ıÁ¬½Ó....");
+	        System.out.println("æµè§ˆå™¨è¿æ¥æˆåŠŸ....");
 	        while (true){
 	        	
 	            accept = socket.accept();
-	            System.out.println("ä¯ÀÀÁ¬½Ó³É¹¦");	
 	            InputStreamReader r = new InputStreamReader(accept.getInputStream());
 	            BufferedReader br = new BufferedReader(r);
 	            String readLine = br.readLine();
