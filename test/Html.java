@@ -3,7 +3,7 @@ package testServerSocket;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Html1 {
+public class Html {
 	public String create() {
 		String str = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n" + 
 				"<html>\r\n" + 
@@ -12,7 +12,7 @@ public class Html1 {
 				"  </head>\r\n" + 
 				"  <body>\r\n" + 
 				"     <br>\r\n" + 
-				"   测试2现在的时间是： \r\n" + 
+				"    测试1现在的时间是： \r\n" + 
 				"  </body>\r\n" + 
 				"</html>\r\n" 
 				;
@@ -21,5 +21,4 @@ public class Html1 {
 	    str = str + time;
 		return str;
 	}
-
 }
